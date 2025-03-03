@@ -6,6 +6,7 @@ updates:
 - package-ecosystem: "gomod" # See documentation for possible values
   directories:
     - "go1"
+    - "go2"
   schedule:
     interval: "daily"
   groups:
