@@ -9,7 +9,8 @@ updates:
   schedule:
     interval: "daily"
   groups:
-    applies-to: version-updates
-    update-types:
-      - "minor"
-      - "patch"
+    support-dependencies:
+      applies-to: version-updates
+      update-types:
+        - "minor"
+        - "patch"
